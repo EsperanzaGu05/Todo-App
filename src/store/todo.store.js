@@ -33,6 +33,7 @@ const getTodos = (filter = Filters.All) => {
             return [...state.todos];
         case Filters.Completed:
             return state.todos.filter(todo => todo.done === true)
+        //el todo es solo el elemento de todos 
         case Filters.Pending:
             return state.todos.filter(todo => todo.done === false)
         default:

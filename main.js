@@ -5,4 +5,4 @@ import todoStore from './src/store/todo.store'
 
 todoStore.initStore()
 
-App('#app1')
+App('#app')
